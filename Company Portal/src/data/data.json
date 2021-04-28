@@ -1,8 +1,8 @@
 {
     "Header": {
 
-        "title": "look into future",
-        "paragraph": "Do you want a Website no worry we are here for help"
+        "title": "We are a Landing Page",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
 
     },
     "About": {
@@ -22,8 +22,8 @@
     },
     "Services": [{
             "icon": "fa fa-wordpress",
-            "name": "Work Environment",
-            "text": "We work with various new technologies "
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         },
         {
             "icon": "fa fa-cart-arrow-down",
@@ -32,8 +32,8 @@
         },
         {
             "icon": "fa fa-cloud-download",
-            "name": "Work Faster",
-            "text": "Hassal free work with our fast servers"
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         },
         {
             "icon": "fa fa-language",
@@ -86,21 +86,21 @@
     ],
     "Team": [{
             "img": "img/team/01.jpg",
-            "name": "Piyush Chaturvedi",
+            "name": "John Doe",
             "job": "Director"
         },
         {
             "img": "img/team/02.jpg",
-            "name": "Sumit Roy",
+            "name": "Mike Doe",
             "job": "Senior Designer"
         }, {
             "img": "img/team/03.jpg",
-            "name": "Anuj Chaturvedi",
+            "name": "Jane Doe",
             "job": "Senior Designer"
         },
         {
             "img": "img/team/04.jpg",
-            "name": "Deependar Rana",
+            "name": "Karen Doe",
             "job": "Project Manager"
         }
     ],
@@ -119,18 +119,18 @@
         },
         {
             "icon": "fa fa-bullhorn",
-            "title": "SEO",
-            "text": "Let SEO works for you 🙂."
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         },
         {
             "icon": "fa fa-group",
-            "title": "Support",
-            "text":"We are here for your help 24x7"
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         },
         {
             "icon": "fa fa-magic",
-            "title": "Mobile Optimised",
-            "text": "It fits in your mobile"
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         }
     ],
     "Pricing":[{
