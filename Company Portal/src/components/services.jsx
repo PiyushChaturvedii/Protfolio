@@ -3,10 +3,9 @@ export const Services = (props) => {
     <div id='services' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>Our Services</h2>
+          <h2>WHAT WE DO</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Dedicated Developer Web Development (Java, .Net, Php, NodeJs, ReactJs, Angular) Software Development Creative Web Designing Website Maintenance Website Content Writing Services Email Marketing Web Hosting SEO
           </p>
         </div>
         <div className='row'>
