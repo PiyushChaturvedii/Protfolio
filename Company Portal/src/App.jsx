@@ -12,29 +12,29 @@ import { Contact } from './components/contact'
 import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
 
-export const scroll = new SmoothScroll('a[href*="#"]', {
+export const scroll = new SmoothScroll('a[href*=""]', {
   speed: 1000,
   speedAsDuration: true,
 })
 
 const App = () => {
-  const [landingPageData, setLandingPageData] = useState({})
+  const [datajson, setdatajson] = useState({})
   useEffect(() => {
-    setLandingPageData(JsonData)
+    setdatajson(JsonData)
   }, [])
 
   return (
     <div>
       <Navigation />
-      <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
-      <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
-      <Pricings />
+      <Header data={datajson.Header} />
+      <Features data={datajson.Features} />
+      <About data={datajson.About} />
+      <Services data={datajson.Services} />
+      <Pricings data={datajson.Pricings} />
       <Gallery />
-      <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
+      <Testimonials data={datajson.Testimonials} />
+      <Team data={datajson.Team} />
+      <Contact data={datajson.Contact} />
     </div>
   )
 }

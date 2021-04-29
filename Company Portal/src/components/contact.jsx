@@ -1,13 +1,19 @@
-import { useState } from 'react'
+import { useState} from 'react'
 import emailjs from 'emailjs-com'
+import 'react-responsive-modal/styles.css';
+import { Modal } from 'react-responsive-modal';
+import "./contact.css"
+import { Alert } from '@material-ui/lab';
+
 
 const initialState = {
   name: '',
   email: '',
   message: '',
+  contact: '',
 }
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState)
+  const [{ name, email, message, contact }, setState] = useState(initialState)
 
   const handleChange = (e) => {
     const { name, value } = e.target
@@ -17,10 +23,10 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log(name, email, message)
+    console.log(name, email, message, contact)
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        'service_oqk0c5x', 'template_3p652ro', e.target, 'user_gy4xw7p23ZdOGWKKGWye4'
       )
       .then(
         (result) => {
@@ -32,6 +38,25 @@ export const Contact = (props) => {
         }
       )
   }
+
+    const [open, setOpen] = useState(false);
+  
+    const onOpenModal = () => setOpen(true);
+    const onCloseModal = () => setOpen(false);
+
+    const maxLengthCheck = (object) => {
+      if (object.target.value.length > object.target.maxLength) {
+       object.target.value = object.target.value.slice(0, object.target.maxLength)
+        }
+      }
+    const validInput = (object) => {
+      if(object.target.value < object.target.maxLength) {
+          // <alert>Must be 10 digits</alert>
+          <Alert severity="warning">Must be 10 digits</Alert>
+
+        }
+      }
+
   return (
     <div>
       <div id='contact'>
@@ -76,22 +101,44 @@ export const Contact = (props) => {
                     </div>
                   </div>
                 </div>
+                <div className='row'>
+                  <div className='col-md-6'>
+                      <div className='form-group'>
+                        <input
+                          type='number'
+                          id='contact'
+                          name='contact'
+                          className='form-control'
+                          placeholder='Your Mobile number'
+                          required
+                          maxLength = "10" 
+                          onInput={maxLengthCheck}
+                          onChange={handleChange}
+                          onInputCapture={validInput}
+                        />
+                        <p className='help-block text-danger'></p>
+                      </div>
+                    </div>
+                  </div>
                 <div className='form-group'>
                   <textarea
                     name='message'
                     id='message'
                     className='form-control'
                     rows='4'
-                    placeholder='Message'
+                    placeholder='Message containing your query and requirement'
                     required
                     onChange={handleChange}
                   ></textarea>
                   <p className='help-block text-danger'></p>
                 </div>
                 <div id='success'></div>
-                <button type='submit' className='btn btn-custom btn-lg'>
-                  Send Message
-                </button>
+                <button onClick={onOpenModal} type='submit' className='btn btn-custom btn-lg'>
+                      Send Message
+                </button> 
+                <Modal open={open} onClose={onCloseModal} center>
+                  <h2>Message Sent Succesfully</h2>
+                </Modal>       
               </form>
             </div>
           </div>
