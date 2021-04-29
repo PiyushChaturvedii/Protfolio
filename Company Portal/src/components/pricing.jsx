@@ -7,10 +7,11 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
-
+import "./pricing.css"
 const useStyles = makeStyles({
   table: {
-    minWidth: 650,
+    maxWidth: 350,
+    minWidth: 150,
   },
 });
 
@@ -18,29 +19,43 @@ export const Pricings = (props) => {
   const classes = useStyles();
   console.log(props.data)
   return (
-    <div id="pricing">
+    <div id="pricing" className='text-center' >
+      <div className='container'>
+        <div className='section-title'>
+          <h2>Pricing</h2>
+        </div>
        {props.data
             ? props.data.map((d, i) => (
-              <div key={`${d.level}-${i}`} >
+              <div key={`${d.level}-${i}`} className='col-md-4'>
+                {' '}
               <TableContainer   component={Paper}>
               <Table className={classes.table} aria-label="simple table">
                 <TableHead>
                   <TableRow>
-                    <TableCell align="center"><b>{d.level}</b></TableCell>
+                    <TableCell id="cell" align="center"><b>{d.level}</b></TableCell>
                   </TableRow>
                 </TableHead>
                 <TableBody>
-                  <TableCell align="right">{d.price}</TableCell><br />
-                  <TableCell align="right">Fat&nbsp;(g)</TableCell><br />
-                  <TableCell align="right">Carbs&nbsp;(g)</TableCell><br />
-                  <TableCell align="right">Protein&nbsp;(g)</TableCell>
+                  <TableCell id="rows" align="center">{d.price}</TableCell>
+                  <TableCell id="rows" align="center">{d.domain}</TableCell>
+                  <TableCell id="rows" align="center">{d.page}</TableCell>
+                  <TableCell id="rows" align="center">{d.ads}</TableCell>
+                  <TableCell id="rows" align="center">{d.optimize}</TableCell>
+                  <TableCell id="rows" align="center">{d.seo}</TableCell>
+                  <TableCell id="rows" align="center">{d.certificate}</TableCell>
+                  <TableCell id="rows" align="center">{d.protection}</TableCell>
+                  <TableCell id="rows" align="center">{d.storage}</TableCell>
+                  <TableCell id="rows" align="center">{d.server}</TableCell>
+                  <TableCell id="rows" align="center">{d.mail}</TableCell>
+                  <TableCell id="rows" align="center">{d.support}</TableCell>
+                  
                 </TableBody>
               </Table>
             </TableContainer>
             </div>
               ))
             : 'Loading...'}
-    
+    </div>
     </div>
   );
 }
