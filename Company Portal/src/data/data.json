@@ -35,39 +35,34 @@
     ],
      "Testimonials": [{
             "img": "img/testimonials/01.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
+            "text": "\"I am very happy with Dimension India for their excellent service, responsiveness and subject matter expertise...\"",
+            "name": "Satyam Chaturvedi"
         },
         {
             "img": "img/testimonials/02.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/03.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
+            "text": "\"We are now having record website sales month after month and we've only just begun.\"",
+            "name": "Vijay Gurnani"
         },
         {
             "img": "img/testimonials/04.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+            "text": "\"I now feel I have the tools and support to really help me drive my business forward.\"",
+            "name": "Shubham Acharya"
         },
         {
             "img": "img/testimonials/05.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
+            "text": "\"Very impressive numbers in terms of our database numbers, website traffic and direct contacts\"",
+            "name": "Satyajeet Sarkar"
         },
         {
             "img": "img/testimonials/06.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+            "text": "\"I now feel I have the tools and support to really help me drive my business forward.\"",
+            "name": "Dhananjay Mishra"
         }
     ],
     "Team": [{
             "img": "img/team/01.jpg",
             "name": "Piyush Chaturvedi",
-            "job": "Director"
+            "job": "Full Stack Devolper"
         },
         {
             "img": "img/team/02.jpg",
@@ -76,7 +71,7 @@
         }, {
             "img": "img/team/03.jpg",
             "name": "Anuj Chaturvedi",
-            "job": "Senior Designer"
+            "job": "Backend Designer"
         },
         {
             "img": "img/team/04.jpg",
@@ -93,22 +88,22 @@
         "youtube": "youtube.com"
     },
     "Features": [{
-            "icon": "fa fa-comments-o",
+            "icon": "fa fa-magic",
             "title": "Website / Graphic Design",
             "text": "UX Design, UI Design, Responsive websites and Web Design"
         },
         {
-            "icon": "fa fa-bullhorn",
+            "icon": "fa fa-mobile",
             "title": "Mobile Apps Development",
             "text": "Native mobile apps for iOS and Android, Enterprise mobility app development"
         },
         {
-            "icon": "fa fa-group",
+            "icon": "fa fa-tasks",
             "title": "Software Development",
             "text": "Custom web applications and product development, websites and portals"
         },
         {
-            "icon": "fa fa-magic",
+            "icon": "fa fa-shopping-cart",
             "title": "e-Commerce Development",
             "text": "Developing Custom e-commerce solutions and building Magento stores"
         }
