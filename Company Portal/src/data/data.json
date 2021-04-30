@@ -33,30 +33,35 @@
         }   
 
     ],
-    "Testimonials": [{
+     "Testimonials": [{
             "img": "img/testimonials/01.jpg",
-            "text": "\"I am very happy with WebFuture India for their excellent service, responsiveness and subject matter expertise...\"",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
             "name": "John Doe"
         },
         {
             "img": "img/testimonials/02.jpg",
-            "text": "\"We are now having record website sales month after month and we've only just begun.\"",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
             "name": "Johnathan Doe"
         },
         {
             "img": "img/testimonials/03.jpg",
-            "text": "\"We are spending less money and every penny spent is fruitful at bringing us more productive leads...\"",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
             "name": "John Doe"
         },
         {
             "img": "img/testimonials/04.jpg",
-            "text": "\"Very impressive numbers in terms of our database numbers, website traffic and direct contacts\"",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
             "name": "Johnathan Doe"
         },
         {
             "img": "img/testimonials/05.jpg",
-            "text": "\"I now feel I have the tools and support to really help me drive my business forward.\"",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
             "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/06.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
         }
     ],
     "Team": [{
