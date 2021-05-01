@@ -110,7 +110,7 @@
     ],
     "Pricings":[{
         "level": "Beginner",
-        "price": "10k/year flat 20% discount",
+        "price": "Rs. 835/- per month",
         "domain": "Free domain",
         "page": "3 Pages",
         "ads": "No ads (Third party ads are removed)",
@@ -127,7 +127,7 @@
     },
     {
         "level": "Runner",
-        "price": "20k/year flat 20% discount",
+        "price": "Rs. 1,666/- per month",
         "domain": "Free domain",
         "page": "10 Pages",
         "ads": "No ads (Third party ads are removed)",
@@ -142,7 +142,7 @@
     },
     {
         "level": "Pro",
-        "price": "30k/year flat 20% discount",
+        "price": "Rs. 2500/- per month",
         "domain": "Free domain",
         "page": "Unlimited Pages",
         "ads": "No ads (Third party ads are removed)",
