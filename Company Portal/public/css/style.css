@@ -218,7 +218,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-bottom: 60px;
 }
 header .intro-text {
-	padding-top: 350px;
+	padding-top: 200px;
 	padding-bottom: 200px;
 	text-align: center;
 }
@@ -289,19 +289,19 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 100px 0;
-	/* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
-	color: #fff;
+	background: white;
+	color:black;
 }
 #services .service-desc {
 	margin: 10px 10px 20px;
 }
 #services h2 {
-	color: #fff;
+	color:black;
 }
 #services .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: rgba(255,255,255,.3);
+	background: black;
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -313,18 +313,18 @@ header .intro-text {
 	width: 120px;
 	height: 120px;
 	padding: 40px 0;
-	/* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+	background: rgb(17, 17, 17);
 	border-radius: 50%;
-	color: #fff;
+	color:white;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
 #services h3 {
 	font-weight: 500;
 	padding: 5px 0;
-	color: #fff;
+	color:black;
 }
 #services p {
-	color: rgba(255,255,255,.75);
+	color: black;
 }
 #services .service-desc {
 	margin-bottom: 40px;
@@ -435,7 +435,7 @@ header .intro-text {
 #contact {
 	padding: 100px 0 60px 0;
 	/* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
-	color: rgba(255,255,255,.75);
+	color:black;
 }
 #contact .section-title {
 	margin-bottom: 40px;
@@ -444,7 +444,7 @@ header .intro-text {
 	font-size: 16px;
 }
 #contact h2 {
-	color: #fff;
+	color:black;
 	margin-top: 10px;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
@@ -452,14 +452,14 @@ header .intro-text {
 #contact .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: rgba(255,255,255,.3);
+	background: black;
 	height: 4px;
 	width: 60px;
 	bottom: 0;
 	left: 30px;
 }
 #contact h3 {
-	color: #fff;
+	color:black;
 	margin-top: 80px;
 	margin-bottom: 25px;
 	padding-bottom: 20px;
@@ -469,17 +469,19 @@ header .intro-text {
 	padding-top: 20px;
 }
 #contact .text-danger {
-	color: #cc0033;
+	color: black;
 	text-align: left;
 }
 #contact .btn-custom {
 	margin: 30px 0;
 	background: transparent;
-	border: 2px solid #fff;
+	border: 2px solid black;
+	color: black;
 }
 #contact .btn-custom:hover {
-	color: #1f386e;
-	background: #fff;
+	color: white;
+	background:black
+	;
 }
 label {
 	font-size: 12px;
@@ -493,10 +495,10 @@ label {
 	padding: 6px 12px;
 	font-size: 16px;
 	line-height: 1.42857143;
-	color: #444;
-	background-color: #fff;
+	color:white;
+	background-color: white;
 	background-image: none;
-	border: 1px solid #ddd;
+	border: 1px solid black;
 	border-radius: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -526,7 +528,7 @@ color: #777;
 	margin: 20px 0;
 }
 #contact .contact-item span {
-	color: rgba(255,255,255,1);
+	color: black;
 	margin-bottom: 10px;
 	display: block;
 }
@@ -548,18 +550,18 @@ color: #777;
 	width: 48px;
 	height: 48px;
 	padding: 12px 0;
-	border: 2px solid #fff;
-	color: #fff;
+	border: 2px solid black;
+	color:black;
 	border-radius: 50%;
 	transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-	color: #608dfd;
-	background: #fff;
+	color: whitesmoke;
+	background: black;
 }
 /* Footer Section*/
 #footer {
-	background: #f6f6f6;
+	background: #313131;
 	padding: 30px 0;
 }
 #footer p {
