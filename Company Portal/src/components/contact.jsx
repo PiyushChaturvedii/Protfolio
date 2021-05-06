@@ -197,7 +197,7 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2021 WebFuture.
+            &copy; 2021 FutureWeb.
             {/* Design by{' '}
             <a href='http://www.templatewire.com' rel='nofollow'>
               TemplateWire

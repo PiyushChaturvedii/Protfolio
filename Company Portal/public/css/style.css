@@ -183,6 +183,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Header Section */
 .intro {
+	scale: 1;
 	display: table;
 	width: 100%;
 	padding: 0;
@@ -199,7 +200,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
-	font-size: 82px;
+	font-size: 06vw;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-top: 0;
@@ -301,7 +302,7 @@ header .intro-text {
 #services .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: black;
+	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -313,7 +314,7 @@ header .intro-text {
 	width: 120px;
 	height: 120px;
 	padding: 40px 0;
-	background: rgb(17, 17, 17);
+	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	border-radius: 50%;
 	color:white;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
@@ -422,6 +423,7 @@ header .intro-text {
 }
 #team .team-img {
 	width: 240px;
+	height: 240px;
 }
 #team .thumbnail {
 	background: transparent;
@@ -434,7 +436,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	/* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+	background: linear-gradient( white 1%,whitesmoke 20%,#6372ff 87%, #4d4949 100%);
 	color:black;
 }
 #contact .section-title {
@@ -561,12 +563,13 @@ color: #777;
 }
 /* Footer Section*/
 #footer {
-	background: #313131;
-	padding: 30px 0;
+	background: #4e4b4b;
+	padding: 15px 0;
 }
 #footer p {
-	color: #888;
-	font-size: 14px;
+	color: whitesmoke;
+	font-size: 15px;
+	font-weight: 300px;
 }
 #footer a {
 	color: #608dfd;
@@ -579,4 +582,34 @@ color: #777;
 #about img {
 	margin: 50px 0;
 }
+}
+
+/* Pricing */
+
+#pricing{
+    overflow: hidden;
+
+    width: auto;
+    box-shadow: 12px;
+    padding: 100px;
+	/* width: 115%; */
+	margin: 0;
+	padding: 0;
+    
+}
+#cell{
+    font-size: 25px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#rows{
+    font-size: 20px;
+    font-weight: 100;
+	width: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }

@@ -24,7 +24,7 @@ const App = () => {
   }, [])
 
   return (
-    <div>
+    <div >
       <Navigation />
       <Header data={datajson.Header} />
       <Features data={datajson.Features} />
