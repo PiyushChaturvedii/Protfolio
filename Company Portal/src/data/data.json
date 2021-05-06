@@ -35,7 +35,7 @@
     ],
      "Testimonials": [{
             "img": "img/testimonials/01.jpg",
-            "text": "\"I am very happy with Dimension India for their excellent service, responsiveness and subject matter expertise...\"",
+            "text": "\"I am very happy with FutureWeb for their excellent service, responsiveness and subject matter expertise...\"",
             "name": "Satyam Chaturvedi"
         },
         {
@@ -110,7 +110,7 @@
     ],
     "Pricings":[{
         "level": "Beginner",
-        "price": "Rs. 835/- per month",
+        "price": "Rs. 10,000/- yearly",
         "domain": "Free domain",
         "page": "3 Pages",
         "ads": "No ads (Third party ads are removed)",
@@ -127,7 +127,7 @@
     },
     {
         "level": "Runner",
-        "price": "Rs. 1,666/- per month",
+        "price": "Rs. 20,000/- yearly",
         "domain": "Free domain",
         "page": "10 Pages",
         "ads": "No ads (Third party ads are removed)",
@@ -142,7 +142,7 @@
     },
     {
         "level": "Pro",
-        "price": "Rs. 2500/- per month",
+        "price": "Rs. 30,000/- yearly",
         "domain": "Free domain",
         "page": "Unlimited Pages",
         "ads": "No ads (Third party ads are removed)",
