@@ -11,7 +11,7 @@
   font-weight: normal;
   font-style: normal;
 }
-.fa {
+.fa , .fab {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -50,7 +50,7 @@
 .fa-ul > li {
   position: relative;
 }
-.fa-li {
+.fa-li ,.fab-li  {
   position: absolute;
   left: -2.14285714em;
   width: 2.14285714em;
