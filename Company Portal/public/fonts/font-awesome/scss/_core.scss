@@ -1,32 +1,13 @@
-// base icon class definition
+// Base Class Definition
 // -------------------------
 
 .#{$fa-css-prefix} {
-  font-family: var(--#{$fa-css-prefix}-style-family, '#{$fa-style-family}');
-  font-weight: var(--#{$fa-css-prefix}-style, #{$fa-style});
-}
-
-.#{$fa-css-prefix},
-.fas,
-.fa-solid,
-.far,
-.fa-regular,
-.fal,
-.fa-light,
-.fat,
-.fa-thin,
-.fad,
-.fa-duotone,
-.fab,
-.fa-brands {
-  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font: normal normal normal #{$fa-font-size-base}/1 FontAwesome; // shortening font declaration
+  font-size: inherit; // can't have font-size inherit on line above, so need to override
+  text-rendering: auto; // optimizelegibility throws things off #1094
   -webkit-font-smoothing: antialiased;
-  display: var(--#{$fa-css-prefix}-display, #{$fa-display});
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-}
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0); // ensures no half-pixel rendering in firefox
 
-%fa-icon {
-  @include fa-icon;
 }

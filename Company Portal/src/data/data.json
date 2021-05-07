@@ -17,17 +17,17 @@
         ]
     },
     "Services": [{
-            "icon": "fa fa-wordpress",
-            "name": "JAVA DEVELOPING",
-            "text": "Java is used worldwide in almost all the spheres from supercomputers, cell phones and laptops to datacenters and game consoles. Java is highly flexible, secure and platform-agnostic. WebFuture has been offering quality enterprise Java development services to our global clientele. We help you design and deploy Java-based applications improving the agility, usability, and quality of IT systems."
+            "icon": "fab fa-brands fa-react",
+            "name": "REACT DEVELOPMENT",
+            "text": "React is one of the most widely used libraries for front-end development. React has become the first choice for frontend because it gives developers the ability to work with a virtual browser (more friendly than the real browser)."
         },
         {
-            "icon": "fa fa-cart-arrow-down",
-            "name": ".NET DEVELOPING",
-            "text": "WebFuture is an experienced ASP.NET Development Company that has ample expertise and proficiency in ASP.NET Development. we have completed several projects related to ASP.NET Development amongst others. Our experience as an ASP.NET Development Company spans the entire spectrum of ASP.NET Development. This includes MVC development, LINQ, Entity Framework, and HTML responsive layout as well."
+            "icon": "fab fa-brands fa-node",
+            "name": "NODEJS DEVELOPEMENT",
+            "text": "WebFuture is an experienced in NODEJS Development, Company that has High-performance for Real-time Applications. Easy Scalability for Modern Applications. Cost-effective with Fullstack JS. Community Support to Simplify Development."
         },
         {
-            "icon": "fa fa-cloud-download",
+            "icon": "fa fa-connectdevelop",
             "name": "MOBILE APPS DEVELOPING",
             "text": "WebFuture helps you turn your idea into apps, solve problems and make your app a potential goldmine. We provide the premier business solutions with our Mobile OS Expertise, Cross-platform Mobile app development Services and hiring solutions. We have evolved into a one stop destination for mobile application creation to the final step of app marketing."
         }   
@@ -82,7 +82,7 @@
     "Contact": {
        
         "phone": "+91 7976161649, +91 7020440798",
-        "email": "info@company.com",
+        "email": "contactus@futureweb.online",
         "facebook": "fb.com",
         "twitter": "twitter.com",
         "youtube": "youtube.com"
