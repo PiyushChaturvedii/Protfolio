@@ -5,7 +5,7 @@ export const Services = (props) => {
         <div className='section-title'>
           <h2>Services</h2>
           <p>
-            Dedicated Developer Web Development ( NodeJs, ReactJs, Angular, ThreeJs) Software Development Creative Web Designing Website Maintenance Website Content Writing Services Email Marketing Web Hosting SEO
+            Dedicated Developer Web Development ( NodeJs, ReactJs, NextJs, Angular, ThreeJs) Software Development Creative Web Designing Website Maintenance Website Content Writing Services Email Marketing Web Hosting SEO
           </p>
         </div>
         <div className='row'>

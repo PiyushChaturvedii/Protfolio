@@ -17,12 +17,12 @@
         ]
     },
     "Services": [{
-            "icon": "fab fa-brands fa-react",
+            "icon": "fa fa-ravelry",
             "name": "REACT DEVELOPMENT",
             "text": "React is one of the most widely used libraries for front-end development. React has become the first choice for frontend because it gives developers the ability to work with a virtual browser (more friendly than the real browser)."
         },
         {
-            "icon": "fab fa-brands fa-node",
+            "icon": "fa fa-leaf",
             "name": "NODEJS DEVELOPEMENT",
             "text": "WebFuture is an experienced in NODEJS Development, Company that has High-performance for Real-time Applications. Easy Scalability for Modern Applications. Cost-effective with Fullstack JS. Community Support to Simplify Development."
         },
